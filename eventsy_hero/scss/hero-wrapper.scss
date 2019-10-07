@@ -1,0 +1,53 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: $site-yellow;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-yellow, 0.8),
+        rgba($site-yellow, 0.8)
+      ),
+      url("../images/home-hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+
+    .callout {
+      margin-top: 90px;
+      width: 416px;
+      min-height: 200px;
+      text-align: center;
+
+      h1 {
+        color: $site-white;
+      }
+
+      .l_imp {
+        color: $site-fuschia;
+        margin-bottom: 20px;
+        font-style: italic;
+      }
+
+      .disc {
+        color: $site-white;
+        font-style: italic;
+      }
+
+      .site-button {
+        text-decoration: none;
+        color: $site-white;
+        padding: 5px 20px;
+        background-color: $site-fuschia;
+      }
+    }
+  }
+}
