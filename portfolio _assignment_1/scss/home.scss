@@ -1,0 +1,27 @@
+.home {
+  .header_image {
+    background-image: url(../images/closecut2_1920x1080.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    .header_overlay {
+      background-color: #000000;
+      opacity: 0.4;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+
+      img {
+        height: 639px;
+        width: 754px;
+        opacity: 1;
+        align-items: center;
+        margin: 0 auto;
+      }
+    }
+  }
+}

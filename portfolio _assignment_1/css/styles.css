@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+section {
+  height: 100%; }
+
+.bottom {
+  height: 25px;
+  background-color: #000;
+  width: 100%;
+  margin: 0 auto; }
+
+.jump_to {
+  height: 75px;
+  width: 100%; }
+
+nav {
+  position: fixed;
+  left: 0px;
+  z-index: 99;
+  height: 75px;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  nav .logo {
+    width: 100%;
+    height: 150px; }
+  nav img {
+    display: block;
+    margin-top: 45px;
+    margin-left: 25px; }
+  nav .line-90 {
+    height: 1px;
+    width: 90%;
+    background-color: #fefefe;
+    margin: 20px auto; }
+  nav .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 25px; }
+    nav .links a {
+      text-decoration: none;
+      color: #fefefe;
+      position: relative;
+      font-size: 10px;
+      width: 75px;
+      text-align: center; }
+
+.home .header_image {
+  background-image: url(../images/closecut2_1920x1080.jpg);
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .home .header_image .header_overlay {
+    background-color: #000000;
+    opacity: 0.4;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto; }
+    .home .header_image .header_overlay img {
+      height: 639px;
+      width: 754px;
+      opacity: 1;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 0 auto; }
+
+.who_we_are {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 45px; }
+  .who_we_are .who_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 850px;
+    margin-top: 100px;
+    margin-bottom: 10px; }
+    .who_we_are .who_1 .roots {
+      width: 360px;
+      height: 435px; }
+      .who_we_are .who_1 .roots h1 {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 20px;
+        font-weight: 600; }
+      .who_we_are .who_1 .roots p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 550;
+        font-size: 16px; }
+    .who_we_are .who_1 .roots_img {
+      height: 435px;
+      width: 760px; }
+      .who_we_are .who_1 .roots_img img {
+        height: 435px;
+        width: 760px; }
+  .who_we_are .look_listen_lounge {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    height: 400px;
+    width: 100%; }
+    .who_we_are .look_listen_lounge .lll {
+      height: 400px;
+      width: 355px; }
+      .who_we_are .look_listen_lounge .lll img {
+        width: 355px;
+        height: 265px;
+        margin-bottom: 40px; }
+      .who_we_are .look_listen_lounge .lll h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 17px;
+        margin-bottom: 15px;
+        font-weight: 550; }
+      .who_we_are .look_listen_lounge .lll p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 550;
+        font-size: 15px; }
+
+.breaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 610px;
+  width: 100%;
+  margin: 0 auto; }
+  .breaker .breaker_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/chill_1600x900.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/chill_1600x900.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/chill_1600x900.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/chill_1600x900.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%; }
+    .breaker .breaker_img .breaker_text {
+      width: 760px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      margin: 0 auto; }
+      .breaker .breaker_img .breaker_text h1 {
+        margin: 0 auto;
+        margin-bottom: 20px; }
+      .breaker .breaker_img .breaker_text h2 {
+        font-weight: 400; }
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0 370px 0 370px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 175px; }
+  .services .table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .services .table .section_header h1 {
+      font-size: 30px;
+      margin-top: 100px;
+      margin-bottom: 90px;
+      background-color: black;
+      color: white;
+      text-align: center; }
+    .services .table .services_header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 555px;
+      border-bottom: dotted 2px #999; }
+    .services .table h6 {
+      background-color: white;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: -2px; }
+    .services .table p {
+      margin-bottom: -8px; }
+    .services .table em {
+      background-color: white;
+      font-size: 26px; }
+    .services .table .services_content {
+      margin: 20px 20px;
+      width: 515px; }
+  .services .discount_img {
+    margin-top: 50px;
+    margin-bottom: -20px; }
+    .services .discount_img img {
+      display: block;
+      height: 100%; }
+
+.staff {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .staff .staff_topper {
+    width: 75%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px; }
+  .staff .row_1 {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin: 0 auto; }
+    .staff .row_1 img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly; }
+  .staff .row_2 {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin: 0 auto; }
+    .staff .row_2 img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly; }
+
+.booking {
+  width: 100%;
+  height: 615px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/schedule_1600x900.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/schedule_1600x900.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/schedule_1600x900.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/schedule_1600x900.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto; }
+  .booking .booking_details {
+    text-align: center;
+    font-family: "Montserrat", sans-serif; }
+    .booking .booking_details h1 {
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 550; }
+    .booking .booking_details .site-button {
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      color: white;
+      padding: 5px 20px;
+      background-color: #e74c3d;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      font-weight: 550; }
+
+.locations {
+  background-color: #262626;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto; }
+  .locations .full_logo {
+    margin: 0 auto; }
+  .locations div.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px; }
+    .locations div.info .info_label {
+      width: 170px;
+      color: #666666;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 auto;
+      font-size: 17px;
+      margin-bottom: 20px; }
+    .locations div.info .info_content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      color: #666666;
+      margin-left: 130px; }
+      .locations div.info .info_content h4 {
+        margin: 0;
+        color: white; }
+      .locations div.info .info_content .downtown {
+        text-align: right; }
+      .locations div.info .info_content .carmel {
+        text-align: right; }
+      .locations div.info .info_content .hours_content {
+        padding-left: 50px; }
