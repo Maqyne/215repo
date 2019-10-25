@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+section {
+  height: 100%;
+  margin: 0 200px; }
+
+.list {
+  margin-top: 25px;
+  margin-left: 25px; }
+
+nav {
+  position: fixed;
+  left: 25px;
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left; }
+  nav a {
+    text-decoration: none;
+    color: lightcoral;
+    position: relative;
+    font-size: 25px;
+    width: 75px;
+    text-align: center;
+    text-shadow: 1px 1px 2px whitesmoke; }
+  nav p {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    color: lightcoral;
+    position: relative;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 2px whitesmoke;
+    margin: 0 auto; }
+
+.hero {
+  background-color: lightslategray;
+  opacity: 0.4;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: dotted 2px #999; }
+
+.npc {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .npc img {
+    height: 572px; }
+  .npc p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px; }
