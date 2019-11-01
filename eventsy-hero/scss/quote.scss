@@ -1,0 +1,32 @@
+.quote {
+  height: 300px;
+  @include center-content();
+  display: flex;
+
+  .quote-content {
+    width: 789px;
+    margin: auto;
+
+    .quote-text {
+      color: $yellow;
+      margin-bottom: 25px;
+    }
+
+    .quote-ceo {
+      color: $pink;
+      margin-bottom: 0px;
+    }
+
+    .quote-ceo-title {
+      color: $gray;
+      font-size: 10px;
+    }
+  }
+}
+@media (max-width: 830px) {
+  .quote {
+    .quote-content {
+      padding: 0 20px;
+    }
+  }
+}

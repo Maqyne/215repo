@@ -1,0 +1,39 @@
+.inputs {
+  height: 400px;
+  @include center-content();
+  background-color: $pink;
+  padding: 50px;
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgba($site-input-bg, 0.5);
+    padding-left: 20px;
+    border: none;
+    color: rgba($white, 0.5);
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba($white, 0.5);
+    }
+  }
+
+  .submit-button {
+    background-color: $white;
+    color: $pink;
+    text-transform: uppercase;
+    width: 167px;
+    margin-left: -5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

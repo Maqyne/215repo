@@ -1,0 +1,33 @@
+nav {
+  width: 980px;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 503px;
+    text-transform: lowercase;
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-size: 23px;
+      font-weight: 500;
+    }
+    span {
+      margin: 0 10px;
+      color: $site-blue;
+      font-size: 23px;
+    }
+  }
+}
