@@ -5,29 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Travelfly | Home</title>
-    <link rel="stylesheet" href="css/styles.css" />
+
     <!-- fonts -->
     <!-- font-family: 'Lato', sans-serif;
          font-family: 'Roboto', sans-serif; 
       -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
+    <!-- section: hero-wrapper -->
     <section class="hero-wrapper">
       <div class="hero">
         <nav>
           <div class="logo">
             <img src="images/logo/logo-white.svg" alt="logo-white" />
           </div>
-          <div class="links">
-            <a href="#">home</a><span> | </span> <a href="#">about</a
-            ><span> | </span> <a href="#">tours</a><span> | </span>
-            <a href="#">special offers</a><span> | </span> <a href="#">blog</a
-            ><span> | </span>
-            <a href="#">contact</a>
+          <div class="link-wrap">
+            <div class="links">
+              <a href="#">home</a><span> | </span> <a href="#">about</a
+              ><span> | </span> <a href="#">tours</a><span> | </span>
+              <a href="#">special offers</a><span> | </span> <a href="#">blog</a
+              ><span> | </span>
+              <a href="#">contact</a>
+            </div>
+            <div class="navicon">
+              <i class="icon fas fa-bars"></i>
+            </div>
           </div>
         </nav>
         <div class="callout">
@@ -40,5 +53,170 @@
         </div>
       </div>
     </section>
+
+    <!-- section: trip flyers -->
+    <section>
+      <!-- Isreal -->
+      <div class="trip-flyers">
+        <div class="israel">
+          <div class="flyer-callout">
+            <h1>ISRAEL</h1>
+            <p>from $1000</p>
+            <a href="" class="site-button">LEARN MORE</a>
+          </div>
+        </div>
+        <!-- USA -->
+        <div class="usa">
+          <div class="flyer-callout">
+            <h1>U.S.A</h1>
+            <p>from $1500</p>
+            <a href="" class="site-button">LEARN MORE</a>
+          </div>
+        </div>
+        <!-- Australia -->
+        <div class="australia">
+          <div class="flyer-callout">
+            <h1>AUSTRALIA</h1>
+            <p>from $1800</p>
+            <a href="" class="site-button">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section: booking-form -->
+    <section>
+      <div class="booking-form-wrapper">
+        <div class="form-header">
+          <h1>Booking form</h1>
+        </div>
+        <div class="quad-form">
+          <div class="row-form">
+            <div class="first-item">
+              <input placeholder="name..." type="text" name="name" />
+            </div>
+            <div class="second-item">
+              <input placeholder="email..." type="text" name="email" />
+            </div>
+          </div>
+          <div class="row-form">
+            <div class="first-item">
+              <input placeholder="country..." type="text" name="country" />
+            </div>
+            <div class="second-item">
+              <input placeholder="hotel..." type="text" name="hotel" />
+            </div>
+          </div>
+          <div class="col-form">
+            <div class="col-item">
+              <p>Check-in</p>
+              <input type="date" name="checkIn" />
+            </div>
+            <div class="col-item">
+              <p>Check-out</p>
+              <input type="date" name="checkOut" />
+            </div>
+          </div>
+        </div>
+        <div class="trip-drop">
+          <div class="drop-item">
+            <p>adults</p>
+            <select name="adults" id="adults">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+          <div class="drop-item">
+            <p>children</p>
+            <select name="children" id="children">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+          <div class="drop-item">
+            <p>rooms</p>
+            <select name="rooms" id="rooms">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+        </div>
+        <div class="message">
+          <input placeholder="message…" type="text" name="message" />
+        </div>
+        <div class="submit">
+          <a href="">SUBMIT</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="logo">
+          <img src="images/logo/logo-white.svg" alt="logo-white" />
+        </div>
+        <div class="copyright">
+          <p>Copyright 2019 travel-fly. All rights reserved</p>
+        </div>
+        <div class="media-icon">
+          <div class="fb">
+            <i class="fab fa-facebook-square"></i>
+          </div>
+          <div class="insta">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="twitter">
+            <i class="fab fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script
+      src="https://kit.fontawesome.com/3e2017deaa.js"
+      crossorigin="anonymous"
+    ></script> -->
   </body>
 </html>

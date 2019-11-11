@@ -1,0 +1,41 @@
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: $site-blue;
+  .footer {
+    @include center-content();
+    max-width: 980px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 25px;
+    .logo {
+      height: 42px;
+      width: 92px;
+    }
+    .copyright {
+      font-family: $gillSans;
+      font-size: 12px;
+      color: $site-white;
+    }
+    .media-icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 23px;
+      width: 113px;
+      color: $site-white;
+      .fb {
+        width: 23px;
+      }
+      .insta {
+        width: 23px;
+      }
+      .twitter {
+        width: 23px;
+      }
+    }
+  }
+}

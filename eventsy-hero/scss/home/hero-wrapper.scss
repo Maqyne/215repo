@@ -1,0 +1,54 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: $site-yellow;
+  // background-color: green;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include center-content();
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-yellow, 0.8),
+        rgba($site-yellow, 0.8)
+      ),
+      url("../images/home-hero.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .callout {
+      margin-top: 90px;
+      width: 416px;
+      min-height: 200px;
+      text-align: center;
+
+      h1 {
+        color: $site-white;
+      }
+
+      .l-imp {
+        color: $site-pink;
+        margin-bottom: 35px;
+        font-style: italic;
+      }
+
+      .desc {
+        color: $site-white;
+        margin-bottom: 50px;
+        font-style: italic;
+      }
+
+      .site-button {
+        padding: 10px 25px;
+        background-color: $site-pink;
+        text-decoration: none;
+        color: $site-white;
+      }
+    }
+  }
+}

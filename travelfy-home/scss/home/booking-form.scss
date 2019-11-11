@@ -1,0 +1,105 @@
+.booking-form-wrapper {
+  @include center-content();
+  max-width: 818px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .form-header {
+    width: 818px;
+    font-family: $proxima;
+    font-size: 60px;
+  }
+  .quad-form {
+    max-width: 818px;
+    .row-form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .first-item {
+        input {
+          max-width: 344px;
+          font-family: $gillSans;
+          font-size: 18px;
+          margin-bottom: 20px;
+          border: 1px solid $site-black;
+        }
+      }
+      .second-item {
+        input {
+          max-width: 453px;
+          font-family: $gillSans;
+          font-size: 18px;
+          margin-bottom: 20px;
+          border: 1px solid $site-black;
+        }
+      }
+    }
+  }
+  .col-form {
+    .col-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      input {
+        border: 1px solid $site-black;
+        font-family: $gillSans;
+        font-size: 18px;
+      }
+      p {
+        font-family: $gillSans;
+        font-size: 18px;
+      }
+    }
+  }
+  .trip-drop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .drop-item {
+      width: 224px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      select {
+        width: 103px;
+        font-family: $gillSans;
+        font-size: 18px;
+      }
+      p {
+        font-family: $gillSans;
+        font-size: 18px;
+      }
+    }
+  }
+  .message {
+    input {
+      width: 100%;
+      height: 192px;
+      border: 1px solid $site-black;
+      font-family: $gillSans;
+      font-size: 18px;
+      margin-bottom: 60px;
+    }
+  }
+  .submit {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-size: 15px;
+      padding: 20px 60%;
+      background-color: $site-blue;
+      border-radius: 25px;
+      font-family: $gillSans;
+      font-weight: bold;
+      margin-bottom: 100px;
+    }
+  }
+}

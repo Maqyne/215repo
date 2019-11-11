@@ -15,6 +15,47 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-bottom: 16px;
+}
+
+.inputs {
+  height: 400px;
+  @include center-content();
+  background-color: $site-pink;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: $site-input-bg;
+    // border: 1px solid $site-purple;
+    border: none;
+    color: rgba($site-white, 0.5);
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba($site-white, 0.5);
+    }
+  }
+
+  .submit-button {
+    background-color: $site-white;
+    color: $site-pink;
+    width: 167px;
+    height: 60px;
+    margin-left: -5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

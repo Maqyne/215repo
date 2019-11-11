@@ -1,6 +1,6 @@
 .quote {
   height: 300px;
-  @include center-content();
+  @include center-content($site-full-width, 0 auto);
   display: flex;
 
   .quote-content {
@@ -8,23 +8,25 @@
     margin: auto;
 
     .quote-text {
-      color: $yellow;
+      color: $site-yellow;
       margin-bottom: 25px;
     }
 
     .quote-ceo {
-      color: $pink;
+      color: $site-pink;
       margin-bottom: 0px;
     }
 
     .quote-ceo-title {
-      color: $gray;
+      color: $site-gray;
       font-size: 10px;
     }
   }
 }
+
 @media (max-width: 830px) {
   .quote {
+    display: none;
     .quote-content {
       padding: 0 20px;
     }

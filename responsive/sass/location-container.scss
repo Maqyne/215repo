@@ -1,0 +1,45 @@
+.location-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #ccc;
+  min-height: 304px;
+  display: flex;
+  justify-content: center;
+  .location {
+    height: 304px;
+    width: 236px;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+    .country {
+      text-transform: uppercase;
+    }
+    .cost {
+      margin-top: -16px;
+      margin-bottom: 70px;
+    }
+    .button {
+      text-transform: uppercase;
+    }
+  }
+  .israel {
+    background-image: url("../images/tour/tour-01.jpg");
+  }
+  .usa {
+    background-image: url("../images/tour/tour-02.jpg");
+  }
+  .austrailia {
+    background-image: url("../images/tour/tour-03.jpg");
+  }
+}
+@media (max-width: 1000px) {
+  .location-container {
+    flex-direction: column;
+  }
+}

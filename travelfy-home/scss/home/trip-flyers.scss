@@ -1,0 +1,138 @@
+.trip-flyers {
+  min-height: 304px;
+
+  @include center-content();
+  max-width: 818px;
+  display: flex;
+  justify-content: space-between;
+
+  .israel {
+    width: 236px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url("../images/tour/tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .flyer-callout {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 37px;
+      h1 {
+        color: $site-white;
+        font-size: 45px;
+        margin-bottom: 0;
+        font-family: $proxima;
+      }
+      p {
+        color: $site-white;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: $proxima;
+      }
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        padding: 6px 10px;
+        background-color: $site-blue;
+        border-radius: 25px;
+        font-family: $gillSans;
+        font-weight: bold;
+        margin-top: 57px;
+      }
+    }
+  }
+  .usa {
+    width: 236px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url("../images/tour/tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .flyer-callout {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 37px;
+      h1 {
+        color: $site-white;
+        font-size: 45px;
+        margin-bottom: 0;
+        font-family: $proxima;
+      }
+      p {
+        color: $site-white;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: $proxima;
+      }
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        padding: 6px 10px;
+        background-color: $site-blue;
+        border-radius: 25px;
+        font-family: $gillSans;
+        font-weight: bold;
+        margin-top: 57px;
+      }
+    }
+  }
+  .australia {
+    width: 236px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url("../images/tour/tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .flyer-callout {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 37px;
+      h1 {
+        color: $site-white;
+        font-size: 45px;
+        margin-bottom: 0;
+        font-family: $proxima;
+      }
+      p {
+        color: $site-white;
+        font-size: 30px;
+        margin-bottom: 100px;
+        font-family: $proxima;
+      }
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        padding: 6px 10px;
+        background-color: $site-blue;
+        border-radius: 25px;
+        font-family: $gillSans;
+        font-weight: bold;
+        margin-top: 57px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .trip-flyers {
+    max-height: 912px;
+    @include center-content();
+    max-width: 818px;
+    display: flex;
+    flex-direction: column;
+  }
+}

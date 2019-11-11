@@ -3,51 +3,52 @@ nav {
   z-index: 99;
   width: 80%;
   height: 92px;
-  margin: 0 auto;
   border-bottom: 2px solid $site-white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -110px;
 
   .logo {
     height: 42px;
     width: 92px;
+    // border: 2px solid $site-white;
   }
 
   .link-wrap {
     display: flex;
     align-items: center;
+
     .links {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      width: 450px;
+      justify-content: center;
       text-transform: lowercase;
       a {
-        text-decoration: none;
         color: $site-white;
         font-size: 15px;
-        font-weight: 500;
-        font-family: $gillSans;
+        text-decoration: none;
       }
+
       span {
-        margin: 0 0px;
-        color: $site-blue;
-        font-size: 20px;
+        margin: 0 10px;
+        color: $site-pink;
+        font-size: 28px;
       }
     }
 
     .navicon {
       display: none;
       color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
     }
   }
 }
+
 @media (max-width: 768px) {
   nav {
     .link-wrap {
-      //background-color: rgba(0, 0, 0, 0.5);
+      // background-color: rgba(0, 0, 0, 0.5);
       margin-top: 250px;
       padding-top: 50px;
 
@@ -57,7 +58,7 @@ nav {
 
       .links {
         display: none;
-        //background-color: rgba(0, 0, 0, 0.5);
+        // background-color: rgba(0, 0, 0, 0.5);
         flex-direction: column;
 
         margin-right: -30px;
