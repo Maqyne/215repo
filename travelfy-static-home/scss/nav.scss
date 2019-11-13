@@ -1,0 +1,46 @@
+nav {
+  position: relative;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -110px;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+  }
+
+  .link-wrap {
+    display: flex;
+    align-items: center;
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 450px;
+      text-transform: lowercase;
+      a {
+        text-decoration: none;
+        color: $site-white;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: $gillSans;
+      }
+      span {
+        margin: 0 0px;
+        color: $site-blue;
+        font-size: 20px;
+      }
+    }
+
+    .navicon {
+      display: none;
+      color: $site-white;
+    }
+  }
+}
