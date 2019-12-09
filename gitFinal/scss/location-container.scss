@@ -1,0 +1,86 @@
+.location-container {
+  min-height: 304px;
+
+  @include center-content();
+  max-width: 818px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  .location {
+    height: 304px;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+
+    .country {
+      text-transform: uppercase;
+      font-family: $lato;
+      font-size: 40px;
+      color: $site-white;
+    }
+
+    .cost {
+      margin-top: -16px;
+      margin-bottom: 70px;
+      font-family: $lato;
+      font-size: 25px;
+      color: $site-white;
+    }
+
+    .button {
+      background-color: $site-blue;
+      border-radius: 25px;
+      text-transform: uppercase;
+      padding: 10px;
+      font-family: $lato;
+      font-size: 15px;
+      color: $site-white;
+    }
+  }
+
+  .israel {
+    background-image: url("../img/tour/tour-01.jpg");
+  }
+
+  .usa {
+    background-image: url("../img/tour/tour-02.jpg");
+  }
+
+  .austrailia {
+    background-image: url("../img/tour/tour-03.jpg");
+  }
+}
+
+@media (max-width: 1000px) {
+  .location-container {
+    margin-top: -100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    .location {
+      margin: 20px 0;
+    }
+    .usa {
+      display: none;
+    }
+    .austrailia {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .location-container {
+    margin-top: -250px;
+    margin-bottom: 0;
+  }
+}

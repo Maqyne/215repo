@@ -1,0 +1,14 @@
+nav a {
+    padding: 20px;
+    color: forestgreen;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+}

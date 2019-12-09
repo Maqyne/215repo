@@ -1,0 +1,179 @@
+.booking-wrapper {
+  @include center-content();
+  max-width: 818px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .form-header {
+    width: 818px;
+    font-family: $roboto;
+    font-size: 60px;
+  }
+  .quad-form {
+    max-width: 818px;
+    .row-form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .first-item {
+        input {
+          max-width: 344px;
+          font-family: $lato;
+          font-size: 18px;
+          margin-bottom: 20px;
+          border: 1px solid $site-black;
+        }
+      }
+      .second-item {
+        input {
+          max-width: 453px;
+          font-family: $lato;
+          font-size: 18px;
+          margin-bottom: 20px;
+          border: 1px solid $site-black;
+        }
+      }
+    }
+  }
+  .col-form {
+    .col-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      margin-bottom: 20px;
+      input {
+        border: 1px solid $site-black;
+        font-family: $lato;
+        font-size: 18px;
+      }
+      p {
+        font-family: $lato;
+        font-size: 18px;
+      }
+    }
+  }
+  .trip-drop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .drop-item {
+      width: 224px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      select {
+        width: 103px;
+        font-family: $lato;
+        font-size: 18px;
+      }
+      p {
+        font-family: $lato;
+        font-size: 18px;
+      }
+    }
+  }
+  .message {
+    input {
+      width: 100%;
+      height: 192px;
+      border: 1px solid $site-black;
+      font-family: $lato;
+      font-size: 18px;
+      margin-bottom: 60px;
+    }
+  }
+  .submit {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-size: 15px;
+      padding: 20px 60%;
+      background-color: $site-blue;
+      border-radius: 25px;
+      font-family: $lato;
+      font-weight: bold;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    .form-header {
+      text-align: center;
+      font-family: $roboto;
+      font-size: 30px;
+    }
+    .quad-form {
+      .row-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .first-item {
+          input {
+            width: 300px;
+            font-family: $lato;
+            font-size: 18px;
+            margin-bottom: 20px;
+            border: 1px solid $site-black;
+          }
+        }
+        .second-item {
+          input {
+            width: 300px;
+            font-family: $lato;
+            font-size: 18px;
+            margin-bottom: 20px;
+            border: 1px solid $site-black;
+          }
+        }
+      }
+    }
+    .col-form {
+      .col-item {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+        p {
+          padding-top: 20px;
+          font-family: $lato;
+          font-size: 16px;
+        }
+        input {
+          width: 65%;
+          border: 1px solid $site-black;
+          font-family: $lato;
+          font-size: 18px;
+        }
+      }
+    }
+    .trip-drop {
+      display: none;
+    }
+    .message {
+      display: none;
+    }
+    .submit {
+      margin: 0 auto;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
