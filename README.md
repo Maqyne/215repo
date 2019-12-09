@@ -13,3 +13,6 @@ https://maqyne.github.io/215repo/travelfy-home/index.html
 
 Git Homework:
 https://maqyne.github.io/215repo/git/index.html
+
+Git Final:
+https://maqyne.github.io/215repo/gitFinal/index.html
